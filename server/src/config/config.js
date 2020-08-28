@@ -1,5 +1,5 @@
 module.exports = {
-  port: process.env.PORT || 8081,
+  port: 8081,
   db: {
     database: process.env.DB_NAME || 'tab_tracker',
     user: process.env.DB_USER || 'tab_tracker',
